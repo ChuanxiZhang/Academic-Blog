@@ -37,9 +37,25 @@ Table 1: Quantitative score of 5 users</center>
       * Through scatter graph is more intuitive, it can not be apply to computer coding. Therefore, there are some common mathematical methods to measure relationship.
 
       * <h6> 1) Euclidean distance
+# ![fig2](https://github.com/ChuanxiZhang/Academic-Blog/blob/master/Collabertive%20Filtering/diagram/euclidean_distance_formula.png?raw=true)
+  <center>[[Source](https://github.com/ChuanxiZhang/Academic-Blog/blob/master/Collabertive%20Filtering/code/user_based_collaboratIve_filtering.uml)] Fig. 2: Scatter diagram of five users [1-3](#Reference_plantuml)
 
-      d(x, y)=\ √((x_1−y_1 )^2+(x_2−y_2 )^2+…+(x_n−y_n )^2 )=√(∑_(i=1)^n▒〖(x_i  −y_i)^2〗)   
-      * Through above fomula,  we can wirte code and calculate Euclidean distance for these five users.
+      * Through above fomula,  we can wirte code and calculate Euclidean distance for these five users. [[Source](https://github.com/ChuanxiZhang/Academic-Blog/blob/master/Collabertive%20Filtering/code/user_based_collaboratIve_filtering.uml)] After calculate, the results shown as following:
+
+<center>
+
+| User  | Post1 | Post2 |
+|:---:|:---:|:---:|
+| User1 | 3.3   | 6.5   |
+| User2 | 5.8   | 2.6   |
+| User3 | 3.6   | 6.3   |
+| User4 | 3.4   | 5.8   |
+| User5 | 5.2   | 3.1   |
+Table 2: Quantitative score of 5 users</center>
+#
+
+
+
 3. Item based collaborative filtering
 
 
