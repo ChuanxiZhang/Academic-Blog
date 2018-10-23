@@ -13,7 +13,7 @@
     * <h5> 1. Mining user preferences for contents of post based on historical data.
     * <h5> 2. Calculate relationship between users based on attitude sand preferences of different users for same post.
     * <h5> 3. Recommending post between user with same preferences.
-          ![avatar](diagram/user_based_collaboratIve_filtering.png)
+          ![avatar](https://github.com/ChuanxiZhang/Academic-Blog/blob/master/Collabertive%20Filtering/diagram/user_based_collaboratIve_filtering.png)
       1) Fig. 1: Usecase Diagram of users and posts
       (code: user_based_collaboratIve_filtering.uml)
   Reference:
