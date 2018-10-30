@@ -1,0 +1,36 @@
+'Chuanxi Zhang'
+'10.29.2018'
+
+@startuml
+
+together {
+	actor User1
+	actor User2
+	actor User3
+}
+
+together {
+	usecase Post1
+	usecase Post2
+	usecase Post3
+	usecase Post4
+}
+
+Post1 -[hidden]- Post2
+Post2 -[hidden]- Post3
+Post3 -[hidden]- Post4
+
+User1 -[hidden]- User2
+User2 -[hidden]- User3
+
+User1 -> Post1: "Share, Comment and like"
+User1 -> Post3: "Share, Comment and like"
+User1 -> Post4: "Share, Comment and like"
+User2 -> Post1: "Share, Comment and like"
+User2 -> Post3: "Share, Comment and like"
+User3 -> Post2: "Share, Comment and like"
+User3 -> Post3: "Share, Comment and like"
+
+Post1 .> User3: "Recommending"
+@enduml
+
