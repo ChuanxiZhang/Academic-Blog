@@ -31,33 +31,34 @@
 | User5 | 5.2   | 3.1   |
 Table 1: Quantitative score of 5 users</center>
 # ![fig2](https://github.com/ChuanxiZhang/Academic-Blog/blob/master/Collabertive%20Filtering/diagram/scatter_plot.png?raw=true)
-  <center>[[Source](https://github.com/ChuanxiZhang/Academic-Blog/blob/master/Collabertive%20Filtering/code/user_based_collaboratIve_filtering.uml)] Fig. 2: Scatter diagram of five users [1-3](#Reference_plantuml)
-*
+  <center>[[Source](https://github.com/ChuanxiZhang/Academic-Blog/blob/master/Collabertive%20Filtering/code/user_based_collaboratIve_filtering.uml)] Fig. 2: Scatter diagram of five users [[1-3](#Reference_plantuml)]
+* 
     * <h5> (2) By mathematical methods
       * Through scatter graph is more intuitive, it can not be apply to computer coding. Therefore, there are some common mathematical methods to measure relationship.
 
       * <h6> 1) Euclidean distance
 # ![fig2](https://github.com/ChuanxiZhang/Academic-Blog/blob/master/Collabertive%20Filtering/diagram/euclidean_distance_formula.png?raw=true)
-  <center>[[Source](https://github.com/ChuanxiZhang/Academic-Blog/blob/master/Collabertive%20Filtering/code/user_based_collaboratIve_filtering.uml)] Fig. 2: Scatter diagram of five users [1-3](#Reference_plantuml)
+  <center>Fig. 3: Formula of Euclidean distance[[1-3](#Reference_plantuml)]
 
-      * Through above fomula,  we can wirte code and calculate Euclidean distance for these five users. [[Source](https://github.com/ChuanxiZhang/Academic-Blog/blob/master/Collabertive%20Filtering/code/user_based_collaboratIve_filtering.uml)] After calculate, the results shown as following:
+      * Through above fomula,  we can wirte code and calculate Euclidean distance for these five users.  After calculate, the results shown as following:
 
 <center>
 
-| User  | Post1 | Post2 |
+| User  | Quantitative score | Normalized score|
 |:---:|:---:|:---:|
-| User1 | 3.3   | 6.5   |
-| User2 | 5.8   | 2.6   |
-| User3 | 3.6   | 6.3   |
-| User4 | 3.4   | 5.8   |
-| User5 | 5.2   | 3.1   |
-Table 2: Quantitative score of 5 users</center>
-#
+| User1 & User2 | 4.6325   | 0.1775   |
+| User1 & User3 | 0.3606   | 0.7350   |
+| User1 & User4 | 0.7071   | 0.5858   |
+| User1 & User5 | 3.8949   | 0.2043   |
+| User2 & User3 | 4.3046   | 0.1885   |
+| User2 & User4 | 4.0000   | 0.2000   |
+| User2 & User5 | 0.7810   | 0.5615   |
+| User3 & User4 | 0.5385   | 0.6500   |
+| User3 & User4 | 3.5777   | 0.2184   |
+| User4 & User5 | 3.2450   | 0.2355   |
 
-
-
-3. Item based collaborative filtering
-
+[[Source](https://github.com/ChuanxiZhang/Academic-Blog/blob/master/Collabertive%20Filtering/code/euclidean_distance.py)] Table 2: Quantitative score of 5 users</center>
+## 3. Item based collaborative filtering
 
 ## Reference:
 <div id = "Reference_plantuml"></div>
